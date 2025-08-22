@@ -31,6 +31,8 @@ This tutorial outlines the installation of the open-source help desk ticketing s
      ```
      C:\xampp\htdocs\osticket\
      ```
+     <img width="810" height="143" alt="image" src="https://github.com/user-attachments/assets/d0e8000a-f339-4c13-bfdc-4fabfd74fd44" />
+
 
 2. **Enable PHP Extensions**
    - Open `C:\xampp\php\php.ini` in a text editor.
