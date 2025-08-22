@@ -10,23 +10,16 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 - ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (If using virtual machines (VM)/compute)
-- Remote Desktop (Not required unless using VM)
-- Internet Information Services (IIS) (Required)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
-
-<h2>List of Prerequisites</h2>
-
+### Operating System
 - Windows 10 (21H2)
+
+### List of Prerequisites
 - Apache Web Server (via XAMPP or manual install)
-- PHP 8.0 or 8.1 with required extensions
+- PHP 8.0 or 8.1 with required extensions:
+  - `mysqli`, `gd`, `imap`, `mbstring`, `intl`, `json`, `xml`, `fileinfo`, `openssl`, `phar`, `curl`
 - MySQL 5.5+ (or MariaDB 10.0+)
-- osTicket installation files (from osTicket.com)
+- osTicket installation files (from [osTicket.com](https://osticket.com/download))
+
 
 <h2>Installation Steps</h2>
 
