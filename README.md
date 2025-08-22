@@ -22,11 +22,11 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 <h2>List of Prerequisites</h2>
 
-Windows 10 (21H2)
-Apache Web Server (via XAMPP or manual install)
-PHP 8.0 or 8.1 with required extensions
-MySQL 5.5+ (or MariaDB 10.0+)
-osTicket installation files (from osTicket.com)
+- Windows 10 (21H2)
+- Apache Web Server (via XAMPP or manual install)
+- PHP 8.0 or 8.1 with required extensions
+- MySQL 5.5+ (or MariaDB 10.0+)
+- osTicket installation files (from osTicket.com)
 
 <h2>Installation Steps</h2>
 
