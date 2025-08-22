@@ -23,26 +23,56 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1. **Download osTicket**
+   - Go to [https://osticket.com/download](https://osticket.com/download).
+   - Download the latest **osTicket Core (Self-Hosted)** zip file.
+   - Extract the zip and copy all contents from the `upload/` folder to:
+     ```
+     C:\xampp\htdocs\osticket\
+     ```
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+2. **Enable PHP Extensions**
+   - Open `C:\xampp\php\php.ini` in a text editor.
+   - Uncomment (remove the `;` from) the following extensions if they are commented out:
+     ```ini
+     extension=mysqli
+     extension=gd
+     extension=imap
+     extension=mbstring
+     extension=intl
+     extension=json
+     extension=xml
+     extension=fileinfo
+     extension=openssl
+     extension=phar
+     extension=curl
+     ```
+   - Save the file and **restart Apache** in XAMPP Control Panel.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+3. **Create MySQL Database**
+   - Open your browser and visit: `http://localhost/phpmyadmin`
+   - Click the **Databases** tab.
+   - Create a new database (e.g., `osticket`).
+   - Optional: Create a MySQL user and assign full privileges to the new database.
+
+4. **Run the Web Installer**
+   - In your browser, go to: `http://localhost/osticket/`
+   - Follow the installation wizard:
+     - Set site name, default email, and admin credentials.
+     - Enter the database name (`osticket`), username, and password.
+     - Complete the installation.
+
+5. **Post-Installation Cleanup**
+   - Delete the `/setup` directory:
+     ```
+     C:\xampp\htdocs\osticket\setup
+     ```
+   - Ensure the config file is writable:
+     ```
+     C:\xampp\htdocs\osticket\include\ost-config.php
+     ```
+     (In Windows, this is usually already writable.)
+
+6. **Access Your Helpdesk**
+   - Go to: `http://localhost/osticket/`
+   - Log in using the admin credentials you created during installation.
