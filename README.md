@@ -22,6 +22,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 
 <h2>Installation Steps</h2>
+⚠️ This guide assumes that a web server (e.g., Apache or IIS), PHP 8.0/8.1, and MySQL are already installed and configured on the system.
 
 1. **Download osTicket**
    - Go to [https://osticket.com/download](https://osticket.com/download).
