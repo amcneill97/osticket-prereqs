@@ -3,8 +3,16 @@
 </p>
 
 <h1>osTicket - Installation (post prerequisite completion)</h1>
+
 This tutorial outlines the installation process for the osTicket help desk ticketing system.<br />
 
+While not required, a virtual machine is helpful if:
+
+You want to isolate osTicket from your host OS.
+
+You're testing or developing in a sandboxed environment.
+
+You’re deploying in a larger infrastructure that uses virtualization or cloud.
 
 ### Operating System
 - Windows 10 (21H2)
