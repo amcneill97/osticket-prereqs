@@ -8,11 +8,11 @@ This tutorial outlines the installation process for the osTicket help desk ticke
 
 While not required, a virtual machine is helpful if:
 
-You want to isolate osTicket from your host OS.
+- You want to isolate osTicket from your host OS.
 
-You're testing or developing in a sandboxed environment.
+- You're testing or developing in a sandboxed environment.
 
-You’re deploying in a larger infrastructure that uses virtualization or cloud.
+- You’re deploying in a larger infrastructure that uses virtualization or cloud.
 
 ### Operating System
 - Windows 10 (21H2)
