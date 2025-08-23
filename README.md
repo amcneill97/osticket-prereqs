@@ -3,12 +3,8 @@
 </p>
 
 <h1>osTicket - Installation (post prerequisite completion)</h1>
-This tutorial outlines the installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the installation process for the osTicket help desk ticketing system.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 ### Operating System
 - Windows 10 (21H2)
