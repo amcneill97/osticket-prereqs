@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# ✅ osTicket Installation Guide (IIS, PHP 7.3, MySQL 5.5)
+# ✅ osTicket Installation Guide
 
 This guide shows you how to install **osTicket v1.15.8** along with its prerequisites for lab/testing purposes on **Windows 10**.
 
@@ -190,7 +190,7 @@ To:
 3. Create a new session:
    - Username: `root`
    - Password: `root`
-4. Connect
+4. Click `Connect`
 5. Click `Create a database`
 
 
