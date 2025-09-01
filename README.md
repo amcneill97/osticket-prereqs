@@ -4,7 +4,7 @@
 
 # ✅ osTicket Installation Guide (IIS, PHP 7.3, MySQL 5.5)
 
-This guide shows you how to to install **osTicket v1.15.8** using **IIS**, **PHP 7.3.8**, and **MySQL 5.5.62** on **Windows 10**.
+This guide shows you how to install **osTicket v1.15.8** along with its prerequisites for lab/testing purposes on **Windows 10**.
 
 ---
 
@@ -64,7 +64,7 @@ File: `VC_redist.x86.exe`
 6. **Install MySQL 5.5.62**
 - File: `mysql-5.5.62-win32.msi`
 - Use **Typical Setup**
-- After install, run the **MySQL Configuration Wizard**
+- After installation, run the **MySQL Configuration Wizard**
   - Choose: **Standard Configuration**
   - Set username: `root`
   - Set password: `root`
@@ -79,10 +79,8 @@ File: `VC_redist.x86.exe`
 - Click your server name
 - Open **PHP Manager**
 - Click: `Register new PHP version`
-- Path:  
-  ```
-  C:\PHP\php-cgi.exe
-  ```
+- Path:  `C:\PHP\php-cgi.exe`
+ 
 
 3. Reload IIS:
 - In IIS Manager:
@@ -180,7 +178,7 @@ To:
 - **Database Name:** `osTicket`
 - **Username:** `root`
 - **Password:** `root`
-3. Click: **Install Now!**
+3. Click **Install**
 
 ---
 
@@ -196,4 +194,4 @@ To:
 
 2. **Set permissions to "Read" only on:** `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
 
-✅ **Done!** Your osTicket helpdesk is now fully installed and configured using **IIS** with the course-provided tools.
+✅ **Done!** Your osTicket helpdesk is now fully installed, configured, and ready to use.
