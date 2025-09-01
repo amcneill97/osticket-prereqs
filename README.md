@@ -22,16 +22,16 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 1. Open **Control Panel** → **Programs** → **Turn Windows features on or off**
   
 2. Enable the following:
-   
-  `Internet Information Services`
 
-  `World Wide Web Services`
+   - `Internet Information Services`
 
-  `Application Development Features`
+   - `World Wide Web Services`
 
-  `[X] CGI`
+   - `Application Development Features`
 
-  <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
+   - `[X] CGI`
+
+    <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
 
 
 ---
@@ -66,7 +66,7 @@ File: `VC_redist.x86.exe`
 - File: `mysql-5.5.62-win32.msi`
 - Use **Typical Setup**
 - After installation, run the **MySQL Configuration Wizard**
-  - Choose: **Standard Configuration**
+  - Choose: `Standard Configuration`
   - Set username: `root`
   - Set password: `root`
 
