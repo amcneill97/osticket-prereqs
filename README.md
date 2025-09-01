@@ -126,6 +126,9 @@ File: `VC_redist.x86.exe`
 - Double-click **PHP Manager**
 - Click: `Enable or disable an extension`
 
+  <img width="189" height="79" alt="image" src="https://github.com/user-attachments/assets/a2025fde-7cae-4876-9724-ef39b8a884f1" />
+
+
 2. Enable the following:
 - `php_imap.dll`
 - `php_intl.dll`
@@ -135,7 +138,7 @@ File: `VC_redist.x86.exe`
 
 ---
 
-## 📝 8. Rename Config File
+## 📝 8. Rename the Configuration File
 
 Rename From:
 `C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`
@@ -146,7 +149,7 @@ To:
 
 ---
 
-## 🔒 9. Set Permissions on Config File
+## 🔒 9. Set Permissions on the Configuration File
 
 1. Right-click `ost-config.php` → `Properties` → `Security`
 2. Click `Advanced`
