@@ -31,6 +31,9 @@ This guide shows you how to to install **osTicket v1.15.8** using **IIS**, **PHP
 
 `[X] CGI`
 
+<img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
+
+
 ---
 
 ## 🧩 3. Install Required Components
@@ -43,7 +46,10 @@ File: `PHPManagerForIIS_V1.5.0.msi`
 2. **Install URL Rewrite Module**  
 File: `rewrite_amd64_en-US.msi`
 
-3. **Create PHP Directory**  
+<img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
+
+
+4. **Create PHP Directory**  
 
 C:\PHP
 
@@ -90,7 +96,7 @@ File: `VC_redist.x86.exe`
 1. From `osTicket-Installation-Files` folder, unzip: `osTicket-v1.15.8.zip`
 
 2. Copy the `upload` folder to: C:\inetpub\wwwroot\
-3. Rename: C:\inetpub\wwwroot\upload → C:\inetpub\wwwroot\osTicket
+3. Rename: `C:\inetpub\wwwroot\upload` → `C:\inetpub\wwwroot\osTicket`
 
 
 4. Reload IIS again (Stop → Start)
