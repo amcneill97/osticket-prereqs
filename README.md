@@ -10,9 +10,10 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
 ## 📁 1. Prepare the Installation Files
 
-- Download and extract the file:  
-  `osTicket-Installation-Files.zip`  
-- Extract it to your **Desktop**  
+- Download and extract `osTicket-Installation-Files.zip`
+  
+- Extract the file to your **Desktop**
+   
 - The folder should be named: `C:\Users<YourUsername>\Desktop\osTicket-Installation-Files`
 
 ---
@@ -22,13 +23,9 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 - Open `Control Panel` → `Programs` → `Turn Windows features on or off`
   
 - Enable the following:
-
    - `Internet Information Services`
-
    - `World Wide Web Services`
-
    - `Application Development Features`
-
    - `[X] CGI`
 
     <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
@@ -48,7 +45,7 @@ File: `PHPManagerForIIS_V1.5.0.msi`
    
 File: `rewrite_amd64_en-US.msi`
 
-    <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
+  <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
 
 
 - **Create PHP Directory:** `C:\PHP` 
@@ -84,17 +81,15 @@ File: `rewrite_amd64_en-US.msi`
 - Open `IIS Manager` as Administrator
 
 - Register PHP with IIS:
-   
-- Click your server name
-- Open `PHP Manager`
-- Click: `Register new PHP version`
-- Path:  `C:\PHP\php-cgi.exe`
+   - Click your server name
+   - Open `PHP Manager`
+   - Click: `Register new PHP version`
+   - Path:  `C:\PHP\php-cgi.exe`
 
   <img width="332" height="271" alt="image" src="https://github.com/user-attachments/assets/f764d6fd-17f2-4436-8536-a1cbbfb05a26" />
 
 
 - Reload IIS:
-   
   - In `IIS Manager`:
   - Right-click your server → click `Stop`
   - Then `Start`
@@ -147,10 +142,9 @@ File: `rewrite_amd64_en-US.msi`
 
 
 - Enable the following:
-   
-- `php_imap.dll`
-- `php_intl.dll`
-- `php_opcache.dll`
+   - `php_imap.dll`
+   - `php_intl.dll`
+   - `php_opcache.dll`
 
 - Refresh the osTicket browser page to verify changes.
 
@@ -191,7 +185,6 @@ File: `rewrite_amd64_en-US.msi`
 - Back in your browser, click `Continue`
   
 - Fill out:
-  
    - `Helpdesk Name`
    - `Default email address` (used to receive tickets)
      
@@ -207,7 +200,6 @@ File: `rewrite_amd64_en-US.msi`
 - Open `HeidiSQL`
   
 - Create a new session:
-  
    - Username: `root`
    - Password: `root`
      
@@ -223,18 +215,18 @@ File: `rewrite_amd64_en-US.msi`
 - Return to the **'osTicket web setup'**
    
 - Use:
-   
   - **Database Name:** `osTicket`
   - **Username:** `root`
   - **Password:** `root`
   
-3. Click `Install`
+- Click `Install`
 
 ---
 
 ## 🎉 13. Final URLs
 
 - Admin Panel: http://localhost/osTicket/scp/login.php
+  
 - End User Ticket Portal: http://localhost/osTicket/
 
 ## 🧹 14. Cleanup
