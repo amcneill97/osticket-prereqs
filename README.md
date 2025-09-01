@@ -23,15 +23,15 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
 2. Enable the following:
    
-`Internet Information Services`
+  `Internet Information Services`
 
-`World Wide Web Services`
+  `World Wide Web Services`
 
-`Application Development Features`
+  `Application Development Features`
 
-`[X] CGI`
+  `[X] CGI`
 
-<img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
+  <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
 
 
 ---
@@ -46,15 +46,16 @@ File: `PHPManagerForIIS_V1.5.0.msi`
 2. **Install URL Rewrite Module**  
 File: `rewrite_amd64_en-US.msi`
 
-<img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
+    <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
 
 
 4. **Create PHP Directory**  
 
 C:\PHP
 
-4. **Unzip PHP 7.3.8**  
-- File: `php-7.3.8-nts-Win32-VC15-x86.zip`  
+4. **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
+- File: `php-7.3.8-nts-Win32-VC15-x86.zip`
+
 - Extract into: `C:\PHP`
   
 
@@ -80,7 +81,9 @@ File: `VC_redist.x86.exe`
 - Open **PHP Manager**
 - Click: `Register new PHP version`
 - Path:  `C:\PHP\php-cgi.exe`
- 
+
+  <img width="332" height="271" alt="image" src="https://github.com/user-attachments/assets/f764d6fd-17f2-4436-8536-a1cbbfb05a26" />
+
 
 3. Reload IIS:
 - In IIS Manager:
@@ -93,7 +96,10 @@ File: `VC_redist.x86.exe`
 
 1. From `osTicket-Installation-Files` folder, unzip: `osTicket-v1.15.8.zip`
 
-2. Copy the `upload` folder to: C:\inetpub\wwwroot\
+2. Copy the `upload` folder to: `C:\inetpub\wwwroot\`
+
+     <img width="206" height="76" alt="image" src="https://github.com/user-attachments/assets/175d3833-6ecc-4dd7-a4eb-800870e10a0a" />
+
 3. Rename: `C:\inetpub\wwwroot\upload` → `C:\inetpub\wwwroot\osTicket`
 
 
@@ -104,17 +110,20 @@ File: `VC_redist.x86.exe`
 ## 🌍 6. Launch osTicket in Browser
 
 1. In **IIS Manager**:
-- Expand **Sites** → **Default Web Site** → **osTicket**
-- On the right, click: **Browse *:80**
+- Expand `Sites` → `Default Web Site` → `osTicket`
+- On the right, click: `Browse *:80 (http)`
 
-2. In the browser, you’ll see some missing PHP extensions.
+  <img width="428" height="206" alt="image" src="https://github.com/user-attachments/assets/600175ac-8fcc-4732-ac53-68c2b04c7e3e" />
+
+
+- In the browser, you’ll see some missing PHP extensions.
 
 ---
 
 ## 🧠 7. Enable Missing PHP Extensions
 
 1. In **IIS Manager**:
-- Go to: **Sites** → **Default Web Site** → **osTicket**
+- Go to: `Sites` → `Default Web Site` → `osTicket`
 - Double-click **PHP Manager**
 - Click: `Enable or disable an extension`
 
@@ -140,12 +149,12 @@ To:
 
 ## 🔒 9. Set Permissions on Config File
 
-1. Right-click `ost-config.php` → **Properties** → **Security**
-2. Click **Advanced**
+1. Right-click `ost-config.php` → `Properties` → `Security`
+2. Click `Advanced`
 3. Disable inheritance → Remove all entries
 4. Add new permission:
    - User: `Everyone`
-   - Permission: **Full Control**
+   - Permission: `Full Control`
 
 ---
 
@@ -166,7 +175,7 @@ To:
    - Username: `root`
    - Password: `root`
 4. Connect
-5. Create a database:
+5. Create a database
 
 
 ---
