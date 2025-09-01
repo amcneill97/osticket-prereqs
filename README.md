@@ -4,7 +4,7 @@
 
 # ✅ osTicket Installation Guide
 
-This guide shows you how to install **osTicket v1.15.8** along with its prerequisites for lab/testing purposes on **Windows 10**.
+This guide shows you how to install **osTicket v1.15.8** along with its prerequisites for lab/testing purposes on **Windows 10 (21H2)**.
 
 ---
 
