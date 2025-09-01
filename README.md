@@ -180,6 +180,9 @@ To:
 2. Fill out:
    - `Helpdesk Name`
    - `Default email address` (used to receive tickets)
+     
+    <p>
+    <img width="368" height="119" alt="image" src="https://github.com/user-attachments/assets/a6cb4bc7-7bd6-45c2-9ac3-75394f2363ba" />
 
 ---
 
