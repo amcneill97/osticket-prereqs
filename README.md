@@ -62,9 +62,13 @@ File: `rewrite_amd64_en-US.msi`
 File: `VC_redist.x86.exe`
 
 6. **Install 'MySQL 5.5.62'**
+   
 - File: `mysql-5.5.62-win32.msi`
+  
 - Use `Typical Setup`
+  
 - After installation, run the `MySQL Configuration Wizard`
+  
   - Choose: `Standard Configuration`
   - Set username: `root`
   - Set password: `root`
@@ -73,11 +77,12 @@ File: `VC_redist.x86.exe`
 
 ## ⚙️ 4. Configure IIS and PHP
 
-1. Open **IIS Manager** as Administrator
+1. Open `IIS Manager` as Administrator
 
 2. Register PHP with IIS:
+   
 - Click your server name
-- Open **PHP Manager**
+- Open `PHP Manager`
 - Click: `Register new PHP version`
 - Path:  `C:\PHP\php-cgi.exe`
 
@@ -85,9 +90,10 @@ File: `VC_redist.x86.exe`
 
 
 3. Reload IIS:
-- In IIS Manager:
-  - Right-click your server → **Stop**
-  - Then **Start**
+   
+  - In `IIS Manager`:
+  - Right-click your server → click `Stop`
+  - Then `Start`
 
 ---
 
@@ -102,13 +108,15 @@ File: `VC_redist.x86.exe`
 3. Rename: `C:\inetpub\wwwroot\upload` → `C:\inetpub\wwwroot\osTicket`
 
 
-4. Reload IIS again (Stop → Start)
+4. Reload IIS again 
+
+  - Click `Start` → `Stop`
 
 ---
 
 ## 🌍 6. Launch osTicket in Browser
 
-1. In **IIS Manager**:
+1. In `IIS Manager`:
 - Expand `Sites` → `Default Web Site` → `osTicket`
 - On the right, click: `Browse *:80 (http)`
 
@@ -121,9 +129,9 @@ File: `VC_redist.x86.exe`
 
 ## 🧠 7. Enable Missing PHP Extensions
 
-1. In **IIS Manager**:
+1. Click `IIS Manager`:
 - Go to: `Sites` → `Default Web Site` → `osTicket`
-- Double-click **PHP Manager**
+- Double-click `PHP Manager`
 - Click: `Enable or disable an extension`
 
   <img width="189" height="79" alt="image" src="https://github.com/user-attachments/assets/a2025fde-7cae-4876-9724-ef39b8a884f1" />
@@ -168,34 +176,37 @@ To:
 
 ## 🛠️ 10. Continue osTicket Setup in Browser
 
-1. Back in your browser, click **Continue**
+1. Back in your browser, click `Continue`
 2. Fill out:
-   - **Helpdesk Name**
-   - **Default email address** (used to receive tickets)
+   - `Helpdesk Name`
+   - `Default email address` (used to receive tickets)
 
 ---
 
 ## 🗄️ 11. Create MySQL Database using HeidiSQL
 
-1. Install **HeidiSQL** from the `osTicket-Installation-Files` folder
-2. Open HeidiSQL
+1. Install `HeidiSQL` from the `osTicket-Installation-Files` folder
+2. Open `HeidiSQL`
 3. Create a new session:
    - Username: `root`
    - Password: `root`
 4. Connect
-5. Create a database
+5. Click `Create a database`
 
 
 ---
 
 ## 🧪 12. Complete Web Installer
 
-1. Return to the osTicket web setup
+1. Return to the **'osTicket web setup'**
+   
 2. Use:
+   
 - **Database Name:** `osTicket`
 - **Username:** `root`
 - **Password:** `root`
-3. Click **Install**
+  
+3. Click `Install`
 
 ---
 
