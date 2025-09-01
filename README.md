@@ -19,7 +19,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
 ## 🌐 2. Install IIS with CGI
 
-1. Open **Control Panel** → **Programs** → **Turn Windows features on or off**
+1. Open `Control Panel` → `Programs` → `Turn Windows features on or off`
   
 2. Enable the following:
 
@@ -58,13 +58,13 @@ File: `rewrite_amd64_en-US.msi`
 - Extract into: `C:\PHP`
   
 
-5. **Install Visual C++ Redistributable**  
+5. **Install 'Visual C++ Redistributable'**  
 File: `VC_redist.x86.exe`
 
-6. **Install MySQL 5.5.62**
+6. **Install 'MySQL 5.5.62'**
 - File: `mysql-5.5.62-win32.msi`
-- Use **Typical Setup**
-- After installation, run the **MySQL Configuration Wizard**
+- Use `Typical Setup`
+- After installation, run the `MySQL Configuration Wizard`
   - Choose: `Standard Configuration`
   - Set username: `root`
   - Set password: `root`
