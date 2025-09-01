@@ -47,11 +47,12 @@ File: `PHPManagerForIIS_V1.5.0.msi`
    
 File: `rewrite_amd64_en-US.msi`
 
+  <p></p>
+
   <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
 
 
 - **Create PHP Directory:** `C:\PHP` 
-
 
 - **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
 
@@ -72,7 +73,7 @@ File: `rewrite_amd64_en-US.msi`
   
 - After installation, run the `MySQL Configuration Wizard`
   
-  - Choose: `Standard Configuration`
+- Choose: `Standard Configuration`
   - Set username: `root`
   - Set password: `root`
 
@@ -82,17 +83,19 @@ File: `rewrite_amd64_en-US.msi`
 
 - Open `IIS Manager` as Administrator
 
-- Register PHP with IIS:
+- Register PHP with IIS: 
    - Click your server name
    - Open `PHP Manager`
    - Click: `Register new PHP version`
    - Path:  `C:\PHP\php-cgi.exe`
 
+    <p></p>
+
   <img width="332" height="271" alt="image" src="https://github.com/user-attachments/assets/f764d6fd-17f2-4436-8536-a1cbbfb05a26" />
 
 
 - Reload IIS:
-  - In `IIS Manager`:
+  - Click `IIS Manager`:
   - Right-click your server → click `Stop`
   - Then `Start`
 
@@ -126,7 +129,7 @@ File: `rewrite_amd64_en-US.msi`
   <img width="428" height="206" alt="image" src="https://github.com/user-attachments/assets/600175ac-8fcc-4732-ac53-68c2b04c7e3e" />
 
 
-   *In the browser, you’ll see some missing PHP extensions.**
+   *In the browser, you’ll see some missing PHP extensions**
 
 ---
 
@@ -148,7 +151,7 @@ File: `rewrite_amd64_en-US.msi`
    - `php_intl.dll`
    - `php_opcache.dll`
 
-- Refresh the osTicket browser page to verify changes.
+- Refresh the osTicket browser page to verify changes
 
 ---
 
@@ -239,4 +242,4 @@ File: `rewrite_amd64_en-US.msi`
 
 - **Set permissions to "Read" only on:** `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
 
-✅ **Done!** Your osTicket helpdesk is now fully installed, configured, and ready to use.
+✅ **Tutorial Completed** Your osTicket helpdesk is now fully installed, configured, and ready to use!
