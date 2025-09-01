@@ -203,7 +203,9 @@ File: `rewrite_amd64_en-US.msi`
 - Install `HeidiSQL` from the `osTicket-Installation-Files` folder
   
 - Open `HeidiSQL`
-  
+
+  <img width="317" height="221" alt="image" src="https://github.com/user-attachments/assets/9ef73564-e243-469c-ba55-a991f9363305" />
+
 - Create a new session:
    - Username: `root`
    - Password: `root`
@@ -223,8 +225,12 @@ File: `rewrite_amd64_en-US.msi`
   - **Database Name:** `osTicket`
   - **Username:** `root`
   - **Password:** `root`
+
+  <p></p>
+  <img width="371" height="167" alt="image" src="https://github.com/user-attachments/assets/65db61c8-ea1b-435f-8601-db12c61cca4e" />
+
   
-- Click `Install`
+- Click `Install Now`
 
 ---
 
@@ -242,4 +248,4 @@ File: `rewrite_amd64_en-US.msi`
 
 - **Set permissions to "Read" only on:** `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
 
-✅ **Tutorial Completed** Your osTicket helpdesk is now fully installed, configured, and ready to use!
+✅ **Tutorial Completed** ~~ Your osTicket helpdesk is now fully installed, configured, and ready to use!
