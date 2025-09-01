@@ -153,10 +153,16 @@ To:
 
 1. Right-click `ost-config.php` → `Properties` → `Security`
 2. Click `Advanced`
-3. Disable inheritance → Remove all entries
+3. Click `Disable inheritance` → `Remove all entries`
+
+    <img width="353" height="239" alt="image" src="https://github.com/user-attachments/assets/f1d9c2d2-a7fe-4671-af4b-184ae921eb18" />
+
+   
 4. Add new permission:
    - User: `Everyone`
    - Permission: `Full Control`
+  
+
 
 ---
 
