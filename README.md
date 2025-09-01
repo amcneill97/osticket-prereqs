@@ -28,6 +28,8 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
    - `Application Development Features`
    - `[X] CGI`
 
+    <p></p>
+
     <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
 
 
