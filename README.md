@@ -49,9 +49,8 @@ File: `rewrite_amd64_en-US.msi`
     <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
 
 
-4. **Create PHP Directory**  
+3. **Create PHP Directory:** `C:\PHP` 
 
-C:\PHP
 
 4. **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
 - File: `php-7.3.8-nts-Win32-VC15-x86.zip`
