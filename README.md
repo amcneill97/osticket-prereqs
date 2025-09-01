@@ -4,7 +4,7 @@
 
 # ✅ osTicket Installation Guide (IIS, PHP 7.3, MySQL 5.5)
 
-This guide follows the exact steps outlined in your course to install **osTicket v1.15.8** using **IIS**, **PHP 7.3.8**, and **MySQL 5.5.62** on **Windows 10**.
+This guide shows you how to to install **osTicket v1.15.8** using **IIS**, **PHP 7.3.8**, and **MySQL 5.5.62** on **Windows 10**.
 
 ---
 
