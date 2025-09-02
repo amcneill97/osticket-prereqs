@@ -248,4 +248,4 @@ File: `rewrite_amd64_en-US.msi`
 
 - **Set permissions to "Read" only on:** `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
 
-✅ **Tutorial Completed** ~~ Your osTicket helpdesk is now fully installed, configured, and ready to use!
+✅ **Tutorial Completed** ~~ osTicket is now fully installed, configured, and ready to use!
