@@ -37,28 +37,29 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
 ## 🧩 3. Install Required Components
 
-From the `osTicket-Installation-Files` folder:
+ From the `osTicket-Installation-Files` folder:
 
-- **Install PHP Manager for IIS**
+  - **Install PHP Manager for IIS**
     
-File: `PHPManagerForIIS_V1.5.0.msi`
+ File: `PHPManagerForIIS_V1.5.0.msi`
 
-- **Install URL Rewrite Module**
+  - **Install URL Rewrite Module**
    
-File: `rewrite_amd64_en-US.msi`
+ File: `rewrite_amd64_en-US.msi`
 
   <p></p>
 
-  <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7" />
+   
+  <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7"/>
 
+  
+  - **Create PHP Directory:** `C:\PHP` 
 
-- **Create PHP Directory:** `C:\PHP` 
+  - **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
 
-- **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
+  File: `php-7.3.8-nts-Win32-VC15-x86.zip`
 
-- File: `php-7.3.8-nts-Win32-VC15-x86.zip`
-
-- Extract into: `C:\PHP`
+  - Extract into: `C:\PHP`
   
 
 - **Install 'Visual C++ Redistributable'**
