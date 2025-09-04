@@ -30,7 +30,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
     <p></p>
 
-    <img width="191" height="170" alt="image" src="https://github.com/user-attachments/assets/82b80238-65f2-4c38-9184-68bd8204497a" />
+    <img width="191" height="170" alt="Image" src="https://github.com/user-attachments/assets/affb4339-163c-44eb-aeca-ce90f4464aa3" />
 
 
 ---
