@@ -50,7 +50,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   <p></p>
 
    
-  <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/57feac8a-5417-4dbf-914c-8a6e4cb98fc7"/>
+  <img width="318" height="178" alt="Image" src="https://github.com/user-attachments/assets/5869ca90-e257-40f7-bf3b-0e76c7688026" />
 
   
   - **Create PHP Directory:** `C:\PHP` 
