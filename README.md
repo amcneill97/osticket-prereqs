@@ -107,7 +107,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
 - Copy the `upload` folder to: `C:\inetpub\wwwroot\`
 
-     <img width="206" height="76" alt="image" src="https://github.com/user-attachments/assets/175d3833-6ecc-4dd7-a4eb-800870e10a0a" />
+     <img width="206" height="76" alt="Image" src="https://github.com/user-attachments/assets/c9ac6a40-014e-41a9-b2f3-44f25a1f6f3c" />
 
 - Rename: `C:\inetpub\wwwroot\upload` → `C:\inetpub\wwwroot\osTicket`
 
@@ -126,8 +126,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
 - On the right, click: `Browse *:80 (http)`
 
-  <img width="428" height="206" alt="image" src="https://github.com/user-attachments/assets/600175ac-8fcc-4732-ac53-68c2b04c7e3e" />
-
+  <img width="428" height="206" alt="Image" src="https://github.com/user-attachments/assets/96f526ac-4415-4e49-90a6-873079901159" />
 
    *In the browser, you’ll see some missing PHP extensions**
 
@@ -143,7 +142,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
 - Click: `Enable or disable an extension`
 
-  <img width="189" height="79" alt="image" src="https://github.com/user-attachments/assets/a2025fde-7cae-4876-9724-ef39b8a884f1" />
+  <img width="189" height="79" alt="Image" src="https://github.com/user-attachments/assets/e3c6b456-0be0-4bc5-8c31-2073c81b84d5" />
 
 
 - Enable the following:
@@ -174,7 +173,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
 - Click `Disable inheritance` → `Remove all entries`
 
-    <img width="353" height="239" alt="image" src="https://github.com/user-attachments/assets/f1d9c2d2-a7fe-4671-af4b-184ae921eb18" />
+    <img width="353" height="239" alt="Image" src="https://github.com/user-attachments/assets/a1ecc6dd-a472-4ddc-9169-df179e748551" />
 
    
 - Add new permission:
@@ -194,7 +193,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
    - `Default email address` (used to receive tickets)
      
     <p>
-    <img width="368" height="119" alt="image" src="https://github.com/user-attachments/assets/a6cb4bc7-7bd6-45c2-9ac3-75394f2363ba" />
+    <img width="368" height="119" alt="Image" src="https://github.com/user-attachments/assets/8841956c-7557-4e36-955a-6b04ef177e77" />
 
 ---
 
@@ -204,7 +203,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
 - Open `HeidiSQL`
 
-  <img width="317" height="221" alt="image" src="https://github.com/user-attachments/assets/9ef73564-e243-469c-ba55-a991f9363305" />
+  <img width="317" height="221" alt="Image" src="https://github.com/user-attachments/assets/83d83473-5319-4ec8-a21f-d77d08f3249b" />
 
 - Create a new session:
    - Username: `root`
@@ -227,7 +226,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   - **Password:** `root`
 
   <p></p>
-  <img width="371" height="167" alt="image" src="https://github.com/user-attachments/assets/65db61c8-ea1b-435f-8601-db12c61cca4e" />
+  <img width="371" height="167" alt="Image" src="https://github.com/user-attachments/assets/b25a48fa-eb25-46b1-a147-aef3ec5db328" />
 
   
 - Click `Install Now`
