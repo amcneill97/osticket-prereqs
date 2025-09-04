@@ -55,7 +55,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
   
   - **Create PHP Directory:** `C:\PHP` 
 
-  - **Unzip PHP 7.3.8**  ~~ <img width="150" height="15" alt="image" src="https://github.com/user-attachments/assets/43588072-be45-4002-a9c3-5f6a1004305c" />
+  - **Unzip PHP 7.3.8**  ~~ <img width="119" height="11" alt="Image" src="https://github.com/user-attachments/assets/88bb06ac-46a0-42e8-b538-790dba4f58ff" />
 
   File: `php-7.3.8-nts-Win32-VC15-x86.zip`
 
@@ -92,8 +92,7 @@ This guide shows you how to install **osTicket v1.15.8** along with its prerequi
 
     <p></p>
 
-  <img width="332" height="271" alt="image" src="https://github.com/user-attachments/assets/f764d6fd-17f2-4436-8536-a1cbbfb05a26" />
-
+  <img width="332" height="271" alt="Image" src="https://github.com/user-attachments/assets/106d3d73-476a-4005-aff1-e72122c07e5e" />
 
 - Reload IIS:
   - Click `IIS Manager`:
